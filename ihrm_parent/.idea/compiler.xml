@@ -9,6 +9,7 @@
         <module name="ihrm_common" />
         <module name="ihrm_common_model" />
         <module name="ihrm_company" />
+        <module name="ihrm_system" />
       </profile>
     </annotationProcessing>
   </component>
