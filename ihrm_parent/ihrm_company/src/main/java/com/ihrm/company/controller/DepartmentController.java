@@ -29,7 +29,7 @@ public class DepartmentController extends BaseController {
     /**
      * 添加部门
      */
-    @RequestMapping(value = "/departments", method = RequestMethod.POST)
+    @RequestMapping(value = "/department", method = RequestMethod.POST)
     public Result add(@RequestBody Department department) throws Exception {
         //设置企业id
         department.setCompanyId(parseCompanyId());
@@ -39,7 +39,7 @@ public class DepartmentController extends BaseController {
     /**
      * 修改部门信息
      */
-    @RequestMapping(value = "/departments/{id}", method = RequestMethod.PUT)
+    @RequestMapping(value = "/department/{id}", method = RequestMethod.PUT)
     public Result update(@PathVariable(name = "id") String id, @RequestBody Department
             department) throws Exception {
         //设置企业id
@@ -51,7 +51,7 @@ public class DepartmentController extends BaseController {
     /**
      * 删除部门
      */
-    @RequestMapping(value = "/departments/{id}", method = RequestMethod.DELETE)
+    @RequestMapping(value = "/department/{id}", method = RequestMethod.DELETE)
     public Result delete(@PathVariable(name = "id") String id) throws Exception {
         departmentService.delete(id);
         return Result.SUCCESS();
@@ -59,7 +59,7 @@ public class DepartmentController extends BaseController {
     /**
      * 根据id查询
      */
-    @RequestMapping(value = "/departments/{id}", method = RequestMethod.GET)
+    @RequestMapping(value = "/department/{id}", method = RequestMethod.GET)
     public Result findById(@PathVariable(name = "id") String id) throws Exception {
         Department department = departmentService.findById(id);
         return new Result(ResultCode.SUCCESS,department);
@@ -67,7 +67,7 @@ public class DepartmentController extends BaseController {
 /**
  * 组织架构列表
  */
-@RequestMapping(value = "/departments", method = RequestMethod.GET)
+@RequestMapping(value = "/department", method = RequestMethod.GET)
 public Result findAll() throws Exception {
     Company company = companyService.findById(parseCompanyId());
     List<Department> list = departmentService.findAll(parseCompanyId());

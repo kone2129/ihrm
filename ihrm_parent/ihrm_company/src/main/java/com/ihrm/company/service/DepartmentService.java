@@ -55,7 +55,7 @@ public class DepartmentService extends BaseService<Department> {
     public void delete(String id) {
         departmentDao.deleteById(id);
     }
-    /**
+    /**parent_id
      * 获取部门列表
      */
     public List<Department> findAll(String companyId) {

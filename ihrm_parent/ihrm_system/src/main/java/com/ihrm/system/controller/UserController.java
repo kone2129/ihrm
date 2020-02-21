@@ -56,10 +56,10 @@ public class UserController extends BaseController {
      * 分页查询用户
      */
     @RequestMapping(value = "/user", method = RequestMethod.GET)
-    public Result findByPage(int page,int pagesize,@RequestParam Map<String,Object>
+    public Result findByPage(int page,int size,@RequestParam Map<String,Object>
             map) throws Exception {
         map.put("companyId",parseCompanyId());
-        Page<User> searchPage = userService.findSearch(map, page, pagesize);
+        Page<User> searchPage = userService.findSearch(map, page, size);
         PageResult<User> pr = new PageResult(searchPage.getTotalElements(),searchPage.getContent());
         return new Result(ResultCode.SUCCESS,pr);
     }
