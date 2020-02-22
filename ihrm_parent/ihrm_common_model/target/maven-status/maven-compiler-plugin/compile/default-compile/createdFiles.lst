@@ -1,4 +1,5 @@
 com\ihrm\domain\system\PermissionPoint.class
+com\ihrm\domain\system\response\UserResult.class
 com\ihrm\domain\system\User.class
 com\ihrm\domain\company\Department.class
 com\ihrm\domain\company\Company.class
@@ -6,4 +7,6 @@ com\ihrm\domain\system\Role.class
 com\ihrm\domain\system\PermissionApi.class
 com\ihrm\domain\system\PermissionMenu.class
 com\ihrm\domain\system\Permission.class
+com\ihrm\domain\system\response\RoleResult.class
+com\ihrm\domain\system\response\ProfileResult.class
 com\ihrm\domain\company\response\DeptListResult.class

@@ -5,7 +5,7 @@ spring:
     name: ihrm-company #指定服务名
   datasource:
     driver-class-name: com.mysql.jdbc.Driver
-    url: jdbc:mysql://106.14.62.203:3306/ihrm?useUnicode=true&characterEncoding=utf8&useSSL=false&serverTimezone=UTC&rewriteBatchedStatements=true
+    url: jdbc:mysql://106.14.62.203:3306/ihrm?useUnicode=true&characterEncoding=utf8&useSSL=false&serverTimezone=UTC&rewriteBatchedStatements=true&autoReconnect=true
     username: root
     password: 2129
   jpa:
