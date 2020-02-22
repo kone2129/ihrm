@@ -1,7 +1,13 @@
 E:\sass-ihrm\ihrm\ihrm_parent\ihrm_system\src\main\java\com\ihrm\system\dao\UserDao.java
-E:\sass-ihrm\ihrm\ihrm_parent\ihrm_system\src\main\java\com\ihrm\system\dao\RoleDao.java
+E:\sass-ihrm\ihrm\ihrm_parent\ihrm_system\src\main\java\com\ihrm\system\dao\PermissionPointDao.java
+E:\sass-ihrm\ihrm\ihrm_parent\ihrm_system\src\main\java\com\ihrm\system\dao\PermissionMenuDao.java
 E:\sass-ihrm\ihrm\ihrm_parent\ihrm_system\src\main\java\com\ihrm\system\service\UserService.java
 E:\sass-ihrm\ihrm\ihrm_parent\ihrm_system\src\main\java\com\ihrm\system\controller\UserController.java
+E:\sass-ihrm\ihrm\ihrm_parent\ihrm_system\src\main\java\com\ihrm\system\dao\PermissionApiDao.java
+E:\sass-ihrm\ihrm\ihrm_parent\ihrm_system\src\main\java\com\ihrm\system\dao\RoleDao.java
+E:\sass-ihrm\ihrm\ihrm_parent\ihrm_system\src\main\java\com\ihrm\system\service\PermissionService.java
+E:\sass-ihrm\ihrm\ihrm_parent\ihrm_system\src\main\java\com\ihrm\system\controller\PermissionController.java
 E:\sass-ihrm\ihrm\ihrm_parent\ihrm_system\src\main\java\com\ihrm\system\SystemApplication.java
 E:\sass-ihrm\ihrm\ihrm_parent\ihrm_system\src\main\java\com\ihrm\system\controller\RoleController.java
+E:\sass-ihrm\ihrm\ihrm_parent\ihrm_system\src\main\java\com\ihrm\system\dao\PermissionDao.java
 E:\sass-ihrm\ihrm\ihrm_parent\ihrm_system\src\main\java\com\ihrm\system\service\RoleService.java
