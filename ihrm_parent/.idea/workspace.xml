@@ -2,39 +2,47 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="52336ac4-5bd7-4083-8475-abbb041f9faf" name="Default Changelist" comment="">
+      <change beforePath="$PROJECT_DIR$/.idea/compiler.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/compiler.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/ihrm_common/target/classes/com/ihrm/common/exception/CommonException.class" beforeDir="false" afterPath="$PROJECT_DIR$/ihrm_common/target/classes/com/ihrm/common/exception/CommonException.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/ihrm_common/target/classes/com/ihrm/common/utils/BeanMapUtils.class" beforeDir="false" afterPath="$PROJECT_DIR$/ihrm_common/target/classes/com/ihrm/common/utils/BeanMapUtils.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ihrm_common/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/ihrm_common/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ihrm_common/src/main/java/com/ihrm/common/entity/ResultCode.java" beforeDir="false" afterPath="$PROJECT_DIR$/ihrm_common/src/main/java/com/ihrm/common/entity/ResultCode.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ihrm_common/target/classes/com/ihrm/common/entity/ResultCode.class" beforeDir="false" afterPath="$PROJECT_DIR$/ihrm_common/target/classes/com/ihrm/common/entity/ResultCode.class" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/ihrm_common/target/ihrm_common-1.0-SNAPSHOT.jar" beforeDir="false" afterPath="$PROJECT_DIR$/ihrm_common/target/ihrm_common-1.0-SNAPSHOT.jar" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ihrm_common/target/maven-status/maven-compiler-plugin/compile/default-compile/createdFiles.lst" beforeDir="false" afterPath="$PROJECT_DIR$/ihrm_common/target/maven-status/maven-compiler-plugin/compile/default-compile/createdFiles.lst" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ihrm_common/target/maven-status/maven-compiler-plugin/compile/default-compile/inputFiles.lst" beforeDir="false" afterPath="$PROJECT_DIR$/ihrm_common/target/maven-status/maven-compiler-plugin/compile/default-compile/inputFiles.lst" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/ihrm_common_model/target/ihrm_common_model-1.0-SNAPSHOT.jar" beforeDir="false" afterPath="$PROJECT_DIR$/ihrm_common_model/target/ihrm_common_model-1.0-SNAPSHOT.jar" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/ihrm_common_model/target/maven-status/maven-compiler-plugin/compile/default-compile/createdFiles.lst" beforeDir="false" afterPath="$PROJECT_DIR$/ihrm_common_model/target/maven-status/maven-compiler-plugin/compile/default-compile/createdFiles.lst" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/ihrm_common_model/target/maven-status/maven-compiler-plugin/compile/default-compile/inputFiles.lst" beforeDir="false" afterPath="$PROJECT_DIR$/ihrm_common_model/target/maven-status/maven-compiler-plugin/compile/default-compile/inputFiles.lst" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/ihrm_company/src/main/resources/application.yml" beforeDir="false" afterPath="$PROJECT_DIR$/ihrm_company/src/main/resources/application.yml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/ihrm_company/target/classes/application.yml" beforeDir="false" afterPath="$PROJECT_DIR$/ihrm_company/target/classes/application.yml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/ihrm_company/target/ihrm_company-1.0-SNAPSHOT.jar" beforeDir="false" afterPath="$PROJECT_DIR$/ihrm_company/target/ihrm_company-1.0-SNAPSHOT.jar" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/ihrm_system/src/main/java/com/ihrm/system/controller/RoleController.java" beforeDir="false" afterPath="$PROJECT_DIR$/ihrm_system/src/main/java/com/ihrm/system/controller/RoleController.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ihrm_system/src/main/java/com/ihrm/system/SystemApplication.java" beforeDir="false" afterPath="$PROJECT_DIR$/ihrm_system/src/main/java/com/ihrm/system/SystemApplication.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/ihrm_system/src/main/java/com/ihrm/system/controller/UserController.java" beforeDir="false" afterPath="$PROJECT_DIR$/ihrm_system/src/main/java/com/ihrm/system/controller/UserController.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/ihrm_system/src/main/java/com/ihrm/system/dao/PermissionDao.java" beforeDir="false" afterPath="$PROJECT_DIR$/ihrm_system/src/main/java/com/ihrm/system/dao/PermissionDao.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/ihrm_system/src/main/java/com/ihrm/system/service/RoleService.java" beforeDir="false" afterPath="$PROJECT_DIR$/ihrm_system/src/main/java/com/ihrm/system/service/RoleService.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ihrm_system/src/main/java/com/ihrm/system/dao/UserDao.java" beforeDir="false" afterPath="$PROJECT_DIR$/ihrm_system/src/main/java/com/ihrm/system/dao/UserDao.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/ihrm_system/src/main/java/com/ihrm/system/service/UserService.java" beforeDir="false" afterPath="$PROJECT_DIR$/ihrm_system/src/main/java/com/ihrm/system/service/UserService.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/ihrm_system/src/main/resources/application.yml" beforeDir="false" afterPath="$PROJECT_DIR$/ihrm_system/src/main/resources/application.yml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/ihrm_system/target/classes/application.yml" beforeDir="false" afterPath="$PROJECT_DIR$/ihrm_system/target/classes/application.yml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/ihrm_system/target/classes/com/ihrm/system/controller/PermissionController.class" beforeDir="false" afterPath="$PROJECT_DIR$/ihrm_system/target/classes/com/ihrm/system/controller/PermissionController.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/ihrm_system/target/classes/com/ihrm/system/controller/RoleController.class" beforeDir="false" afterPath="$PROJECT_DIR$/ihrm_system/target/classes/com/ihrm/system/controller/RoleController.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ihrm_system/target/classes/com/ihrm/system/SystemApplication.class" beforeDir="false" afterPath="$PROJECT_DIR$/ihrm_system/target/classes/com/ihrm/system/SystemApplication.class" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/ihrm_system/target/classes/com/ihrm/system/controller/UserController.class" beforeDir="false" afterPath="$PROJECT_DIR$/ihrm_system/target/classes/com/ihrm/system/controller/UserController.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/ihrm_system/target/classes/com/ihrm/system/dao/PermissionDao.class" beforeDir="false" afterPath="$PROJECT_DIR$/ihrm_system/target/classes/com/ihrm/system/dao/PermissionDao.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/ihrm_system/target/classes/com/ihrm/system/service/PermissionService$1.class" beforeDir="false" afterPath="$PROJECT_DIR$/ihrm_system/target/classes/com/ihrm/system/service/PermissionService$1.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/ihrm_system/target/classes/com/ihrm/system/service/PermissionService.class" beforeDir="false" afterPath="$PROJECT_DIR$/ihrm_system/target/classes/com/ihrm/system/service/PermissionService.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/ihrm_system/target/classes/com/ihrm/system/service/RoleService$1.class" beforeDir="false" afterPath="$PROJECT_DIR$/ihrm_system/target/classes/com/ihrm/system/service/RoleService$1.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/ihrm_system/target/classes/com/ihrm/system/service/RoleService.class" beforeDir="false" afterPath="$PROJECT_DIR$/ihrm_system/target/classes/com/ihrm/system/service/RoleService.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/ihrm_system/target/classes/com/ihrm/system/service/UserService$1.class" beforeDir="false" afterPath="$PROJECT_DIR$/ihrm_system/target/classes/com/ihrm/system/service/UserService$1.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ihrm_system/target/classes/com/ihrm/system/dao/UserDao.class" beforeDir="false" afterPath="$PROJECT_DIR$/ihrm_system/target/classes/com/ihrm/system/dao/UserDao.class" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/ihrm_system/target/classes/com/ihrm/system/service/UserService.class" beforeDir="false" afterPath="$PROJECT_DIR$/ihrm_system/target/classes/com/ihrm/system/service/UserService.class" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/ihrm_system/target/ihrm_system-1.0-SNAPSHOT.jar" beforeDir="false" afterPath="$PROJECT_DIR$/ihrm_system/target/ihrm_system-1.0-SNAPSHOT.jar" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
     <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="DatabaseView">
+    <option name="SHOW_INTERMEDIATE" value="true" />
+    <option name="GROUP_DATA_SOURCES" value="true" />
+    <option name="GROUP_SCHEMA" value="true" />
+    <option name="GROUP_CONTENTS" value="false" />
+    <option name="SORT_POSITIONED" value="false" />
+    <option name="SHOW_EMPTY_GROUPS" value="false" />
+    <option name="AUTO_SCROLL_FROM_SOURCE" value="false" />
+    <option name="HIDDEN_KINDS">
+      <set />
+    </option>
+    <expand />
+    <select />
   </component>
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
@@ -77,27 +85,53 @@
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
     <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1579511515434" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/ihrm_common_model/src/main/java/com/ihrm/domain/system/response" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/ihrm_common/src/main/java/com/ihrm/common/utils" />
     <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
     <property name="nodejs_npm_path_reset_for_default_project" value="true" />
     <property name="project.structure.last.edited" value="Project" />
     <property name="project.structure.proportion" value="0.15404041" />
     <property name="project.structure.side.proportion" value="0.2" />
-    <property name="settings.editor.selected.configurable" value="MavenSettings" />
+    <property name="settings.editor.selected.configurable" value="reference.projectsettings.compiler.annotationProcessors" />
   </component>
   <component name="RecentsManager">
     <key name="MoveClassesOrPackagesDialog.RECENTS_KEY">
       <recent name="" />
     </key>
     <key name="CopyFile.RECENT_KEYS">
+      <recent name="E:\sass-ihrm\ihrm\ihrm_parent\ihrm_common\src\main\java\com\ihrm\common\utils" />
       <recent name="E:\sass-ihrm\ihrm\ihrm_parent\ihrm_common_model\src\main\java\com\ihrm\domain\system\response" />
       <recent name="E:\sass-ihrm\ihrm\ihrm_parent\ihrm_common\src\main\java\com\ihrm\common" />
-      <recent name="E:\sass-ihrm\ihrm\ihrm_parent\ihrm_common\src\main\java\com\ihrm\common\utils" />
       <recent name="E:\sass-ihrm\ihrm\ihrm_parent\ihrm_system\src\main\java\com\ihrm\system\service" />
       <recent name="E:\sass-ihrm\ihrm\ihrm_parent\ihrm_system\src\main\java\com\ihrm\system\controller" />
     </key>
   </component>
   <component name="RunManager" selected="Spring Boot.SystemApplication">
+    <configuration name="CreatJwtTest" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.ihrm.demo.CreatJwtTest" />
+      <module name="ihrm_common" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.ihrm.demo.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="PaserJwtTest" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.ihrm.demo.PaserJwtTest" />
+      <module name="ihrm_common" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.ihrm.demo.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <configuration name="CompanyDaoTest.test" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="ihrm_company" />
       <extension name="coverage">
@@ -141,6 +175,8 @@
       </method>
     </configuration>
     <list>
+      <item itemvalue="Application.CreatJwtTest" />
+      <item itemvalue="Application.PaserJwtTest" />
       <item itemvalue="JUnit.CompanyDaoTest.test" />
       <item itemvalue="Spring Boot.CompanyApplication" />
       <item itemvalue="Spring Boot.SystemApplication" />
@@ -148,6 +184,8 @@
     <recent_temporary>
       <list>
         <item itemvalue="Spring Boot.SystemApplication" />
+        <item itemvalue="Application.PaserJwtTest" />
+        <item itemvalue="Application.CreatJwtTest" />
         <item itemvalue="Spring Boot.CompanyApplication" />
         <item itemvalue="JUnit.CompanyDaoTest.test" />
       </list>
@@ -164,6 +202,9 @@
         </serviceView>
       </list>
     </option>
+  </component>
+  <component name="SpringBootOptions">
+    <option name="showAdditionalConfigNotification" value="false" />
   </component>
   <component name="SvnConfiguration">
     <configuration />
@@ -182,7 +223,9 @@
       <workItem from="1579405683506" duration="8769000" />
       <workItem from="1579482240145" duration="8074000" />
       <workItem from="1582266598396" duration="15956000" />
-      <workItem from="1582345892675" duration="10159000" />
+      <workItem from="1582345892675" duration="13221000" />
+      <workItem from="1582430415199" duration="5995000" />
+      <workItem from="1582550261550" duration="5466000" />
     </task>
     <servers />
   </component>
@@ -221,66 +264,74 @@
       <screen x="0" y="0" width="1366" height="738" />
     </state>
     <state x="449" y="198" key="#com.intellij.refactoring.move.moveInstanceMethod.MoveInstanceMethodDialog/0.0.1366.738@0.0.1366.738" timestamp="1582279050491" />
-    <state x="83" y="194" key="FileChooserDialogImpl" timestamp="1582270681263">
+    <state x="83" y="194" key="FileChooserDialogImpl" timestamp="1582555005275">
       <screen x="0" y="0" width="1366" height="738" />
     </state>
-    <state x="83" y="194" key="FileChooserDialogImpl/0.0.1366.738@0.0.1366.738" timestamp="1582270681263" />
-    <state width="1323" height="374" key="GridCell.Tab.0.bottom" timestamp="1582368478447">
+    <state x="83" y="194" key="FileChooserDialogImpl/0.0.1366.738@0.0.1366.738" timestamp="1582555005275" />
+    <state width="1323" height="480" key="GridCell.Tab.0.bottom" timestamp="1582556157674">
       <screen x="0" y="0" width="1366" height="738" />
     </state>
-    <state width="1323" height="374" key="GridCell.Tab.0.bottom/0.0.1366.738@0.0.1366.738" timestamp="1582368478447" />
-    <state width="1323" height="374" key="GridCell.Tab.0.center" timestamp="1582368478447">
+    <state width="1323" height="480" key="GridCell.Tab.0.bottom/0.0.1366.738@0.0.1366.738" timestamp="1582556157674" />
+    <state width="1323" height="480" key="GridCell.Tab.0.center" timestamp="1582556157674">
       <screen x="0" y="0" width="1366" height="738" />
     </state>
-    <state width="1323" height="374" key="GridCell.Tab.0.center/0.0.1366.738@0.0.1366.738" timestamp="1582368478447" />
-    <state width="1323" height="374" key="GridCell.Tab.0.left" timestamp="1582368478447">
+    <state width="1323" height="480" key="GridCell.Tab.0.center/0.0.1366.738@0.0.1366.738" timestamp="1582556157674" />
+    <state width="1323" height="480" key="GridCell.Tab.0.left" timestamp="1582556157674">
       <screen x="0" y="0" width="1366" height="738" />
     </state>
-    <state width="1323" height="374" key="GridCell.Tab.0.left/0.0.1366.738@0.0.1366.738" timestamp="1582368478447" />
-    <state width="1323" height="374" key="GridCell.Tab.0.right" timestamp="1582368478447">
+    <state width="1323" height="480" key="GridCell.Tab.0.left/0.0.1366.738@0.0.1366.738" timestamp="1582556157674" />
+    <state width="1323" height="480" key="GridCell.Tab.0.right" timestamp="1582556157674">
       <screen x="0" y="0" width="1366" height="738" />
     </state>
-    <state width="1323" height="374" key="GridCell.Tab.0.right/0.0.1366.738@0.0.1366.738" timestamp="1582368478447" />
-    <state width="1323" height="374" key="GridCell.Tab.1.bottom" timestamp="1582368478534">
+    <state width="1323" height="480" key="GridCell.Tab.0.right/0.0.1366.738@0.0.1366.738" timestamp="1582556157674" />
+    <state width="1323" height="480" key="GridCell.Tab.1.bottom" timestamp="1582556157680">
       <screen x="0" y="0" width="1366" height="738" />
     </state>
-    <state width="1323" height="374" key="GridCell.Tab.1.bottom/0.0.1366.738@0.0.1366.738" timestamp="1582368478534" />
-    <state width="1323" height="374" key="GridCell.Tab.1.center" timestamp="1582368478533">
+    <state width="1323" height="480" key="GridCell.Tab.1.bottom/0.0.1366.738@0.0.1366.738" timestamp="1582556157680" />
+    <state width="1323" height="480" key="GridCell.Tab.1.center" timestamp="1582556157680">
       <screen x="0" y="0" width="1366" height="738" />
     </state>
-    <state width="1323" height="374" key="GridCell.Tab.1.center/0.0.1366.738@0.0.1366.738" timestamp="1582368478533" />
-    <state width="1323" height="374" key="GridCell.Tab.1.left" timestamp="1582368478533">
+    <state width="1323" height="480" key="GridCell.Tab.1.center/0.0.1366.738@0.0.1366.738" timestamp="1582556157680" />
+    <state width="1323" height="480" key="GridCell.Tab.1.left" timestamp="1582556157680">
       <screen x="0" y="0" width="1366" height="738" />
     </state>
-    <state width="1323" height="374" key="GridCell.Tab.1.left/0.0.1366.738@0.0.1366.738" timestamp="1582368478533" />
-    <state width="1323" height="374" key="GridCell.Tab.1.right" timestamp="1582368478534">
+    <state width="1323" height="480" key="GridCell.Tab.1.left/0.0.1366.738@0.0.1366.738" timestamp="1582556157680" />
+    <state width="1323" height="480" key="GridCell.Tab.1.right" timestamp="1582556157680">
       <screen x="0" y="0" width="1366" height="738" />
     </state>
-    <state width="1323" height="374" key="GridCell.Tab.1.right/0.0.1366.738@0.0.1366.738" timestamp="1582368478534" />
-    <state width="1323" height="374" key="GridCell.Tab.2.bottom" timestamp="1582368478448">
+    <state width="1323" height="480" key="GridCell.Tab.1.right/0.0.1366.738@0.0.1366.738" timestamp="1582556157680" />
+    <state width="1323" height="480" key="GridCell.Tab.2.bottom" timestamp="1582556157680">
       <screen x="0" y="0" width="1366" height="738" />
     </state>
-    <state width="1323" height="374" key="GridCell.Tab.2.bottom/0.0.1366.738@0.0.1366.738" timestamp="1582368478448" />
-    <state width="1323" height="374" key="GridCell.Tab.2.center" timestamp="1582368478448">
+    <state width="1323" height="480" key="GridCell.Tab.2.bottom/0.0.1366.738@0.0.1366.738" timestamp="1582556157680" />
+    <state width="1323" height="480" key="GridCell.Tab.2.center" timestamp="1582556157680">
       <screen x="0" y="0" width="1366" height="738" />
     </state>
-    <state width="1323" height="374" key="GridCell.Tab.2.center/0.0.1366.738@0.0.1366.738" timestamp="1582368478448" />
-    <state width="1323" height="374" key="GridCell.Tab.2.left" timestamp="1582368478448">
+    <state width="1323" height="480" key="GridCell.Tab.2.center/0.0.1366.738@0.0.1366.738" timestamp="1582556157680" />
+    <state width="1323" height="480" key="GridCell.Tab.2.left" timestamp="1582556157680">
       <screen x="0" y="0" width="1366" height="738" />
     </state>
-    <state width="1323" height="374" key="GridCell.Tab.2.left/0.0.1366.738@0.0.1366.738" timestamp="1582368478448" />
-    <state width="1323" height="374" key="GridCell.Tab.2.right" timestamp="1582368478448">
+    <state width="1323" height="480" key="GridCell.Tab.2.left/0.0.1366.738@0.0.1366.738" timestamp="1582556157680" />
+    <state width="1323" height="480" key="GridCell.Tab.2.right" timestamp="1582556157680">
       <screen x="0" y="0" width="1366" height="738" />
     </state>
-    <state width="1323" height="374" key="GridCell.Tab.2.right/0.0.1366.738@0.0.1366.738" timestamp="1582368478448" />
+    <state width="1323" height="480" key="GridCell.Tab.2.right/0.0.1366.738@0.0.1366.738" timestamp="1582556157680" />
     <state x="553" y="91" key="RollbackChangesDialog" timestamp="1582367080115">
       <screen x="0" y="0" width="1366" height="738" />
     </state>
     <state x="553" y="91" key="RollbackChangesDialog/0.0.1366.738@0.0.1366.738" timestamp="1582367080115" />
-    <state x="184" y="11" key="SettingsEditor" timestamp="1582270694801">
+    <state x="-113" y="23" width="1187" height="715" key="SettingsEditor" timestamp="1582448913894">
       <screen x="0" y="0" width="1366" height="738" />
     </state>
-    <state x="184" y="11" key="SettingsEditor/0.0.1366.738@0.0.1366.738" timestamp="1582270694801" />
+    <state x="-113" y="23" width="1187" height="715" key="SettingsEditor/0.0.1366.738@0.0.1366.738" timestamp="1582448913894" />
+    <state x="339" y="165" key="run.anything.popup" timestamp="1582380049749">
+      <screen x="0" y="0" width="1366" height="738" />
+    </state>
+    <state x="339" y="165" key="run.anything.popup/0.0.1366.738@0.0.1366.738" timestamp="1582380049749" />
+    <state x="346" y="59" width="672" height="678" key="search.everywhere.popup" timestamp="1582433244080">
+      <screen x="0" y="0" width="1366" height="738" />
+    </state>
+    <state x="346" y="59" width="672" height="678" key="search.everywhere.popup/0.0.1366.738@0.0.1366.738" timestamp="1582433244080" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
@@ -294,26 +345,6 @@
           <url>file://$PROJECT_DIR$/ihrm_common/src/main/java/com/ihrm/common/utils/BeanMapUtils.java</url>
           <line>29</line>
           <option name="timeStamp" value="15" />
-        </line-breakpoint>
-        <line-breakpoint enabled="true" type="java-line">
-          <url>file://$PROJECT_DIR$/ihrm_system/src/main/java/com/ihrm/system/controller/UserController.java</url>
-          <line>36</line>
-          <option name="timeStamp" value="18" />
-        </line-breakpoint>
-        <line-breakpoint enabled="true" type="java-line">
-          <url>file://$PROJECT_DIR$/ihrm_system/src/main/java/com/ihrm/system/controller/UserController.java</url>
-          <line>73</line>
-          <option name="timeStamp" value="19" />
-        </line-breakpoint>
-        <line-breakpoint enabled="true" type="java-line">
-          <url>file://$PROJECT_DIR$/ihrm_system/src/main/java/com/ihrm/system/controller/UserController.java</url>
-          <line>75</line>
-          <option name="timeStamp" value="23" />
-        </line-breakpoint>
-        <line-breakpoint enabled="true" type="java-line">
-          <url>file://$PROJECT_DIR$/ihrm_system/src/main/java/com/ihrm/system/controller/UserController.java</url>
-          <line>74</line>
-          <option name="timeStamp" value="25" />
         </line-breakpoint>
       </breakpoints>
     </breakpoint-manager>

@@ -12,4 +12,5 @@ import org.springframework.stereotype.Component;
 @Component
 public interface UserDao extends JpaRepository<User, String>,
         JpaSpecificationExecutor<User> {
+    User findByMobile(String mobile);
 }
