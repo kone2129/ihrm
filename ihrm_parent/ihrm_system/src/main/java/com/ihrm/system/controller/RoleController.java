@@ -55,6 +55,11 @@ public class RoleController {
         return new Result(ResultCode.SUCCESS, roleResult);
     }
 
+    @RequestMapping(value = "/role/list", method = RequestMethod.GET)
+    public Result findAll() throws Exception {
+        List<Role> role = roleService.findAll();
+        return new Result(ResultCode.SUCCESS, role);
+    }
     /**
      *     * 分页查询角色
      *    

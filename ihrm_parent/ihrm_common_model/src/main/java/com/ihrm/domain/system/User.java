@@ -91,6 +91,14 @@ public class User implements Serializable {
     private Integer inServiceStatus;
 
     private String departmentName;
+    /**
+     * @Author Kone
+     * @Date  2020/2/27
+     * saasAdmin:系统管理员
+     * coAdmin:公司管理员（创建企业租户的时候添加）
+     * user:普通用户（需要分配角色）
+     **/
+    private String level;
 
 
     @ManyToMany
