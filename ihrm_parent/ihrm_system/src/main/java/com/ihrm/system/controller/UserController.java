@@ -6,7 +6,9 @@ import com.ihrm.common.entity.Result;
 import com.ihrm.common.entity.ResultCode;
 import com.ihrm.common.exception.CommonException;
 import com.ihrm.common.utils.JwtUtils;
+import com.ihrm.common.utils.PermissionConstants;
 import com.ihrm.domain.system.Permission;
+import com.ihrm.domain.system.Role;
 import com.ihrm.domain.system.User;
 import com.ihrm.domain.system.response.ProfileResult;
 import com.ihrm.domain.system.response.UserResult;
@@ -72,7 +74,7 @@ public class UserController extends BaseController {
     }
 
     //删除用户
-    @RequestMapping(value = "/user/{id}", method = RequestMethod.DELETE)
+    @RequestMapping(value = "/user/{id}", method = RequestMethod.DELETE , name = "API-USER-DELETE")
     public Result delete(@PathVariable(name = "id") String id) throws Exception {
         userService.delete(id);
         return Result.SUCCESS();
@@ -116,8 +118,19 @@ public class UserController extends BaseController {
             return new Result(ResultCode.MOBILEORPASSWORDERROR);
         }else {
             //登录成功
+            //api权限字符串
+            StringBuilder sb = new StringBuilder();
+            //获取到所有的可访问API权限
+            for (Role role : user.getRoles()) {
+                for (Permission perm : role.getPermissions()) {
+                    if(perm.getType() == PermissionConstants.PERMISSION_API) {
+                        sb.append(perm.getCode()).append(",");
+                    }
+                }
+            }
             Map<String,Object> map = new HashMap<>();
             map.put("companyId",user.getCompanyId());
+            map.put("apis",sb.toString());//可访问的api权限字符串
             map.put("companyName",user.getCompanyName());
             String token = jwtUtils.createJwt(user.getId(), user.getUsername(), map);
             return new Result(ResultCode.SUCCESS,token);
@@ -140,15 +153,15 @@ public class UserController extends BaseController {
          *   3.解析token
          *   4.获取clamis
          */
-        //1.获取请求头信息：名称=Authorization
-        String authorization = request.getHeader("Authorization");
-        if(StringUtils.isEmpty(authorization)) {
-            throw new CommonException(ResultCode.UNAUTHENTICATED);
-        }
-        //2.替换Bearer+空格
-        String token = authorization.replace("Bearer ","");
-        //3.解析token
-        Claims claims = jwtUtils.parseJwt(token);
+//        //1.获取请求头信息：名称=Authorization
+//        String authorization = request.getHeader("Authorization");
+//        if(StringUtils.isEmpty(authorization)) {
+//            throw new CommonException(ResultCode.UNAUTHENTICATED);
+//        }
+//        //2.替换Bearer+空格
+//        String token = authorization.replace("Bearer ","");
+//        //3.解析token
+//        Claims claims = jwtUtils.parseJwt(token);
         String userid = claims.getId();
         User user = userService.findById(userid);
         ProfileResult result = null;
